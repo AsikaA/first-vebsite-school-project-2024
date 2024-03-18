@@ -1,0 +1,209 @@
+body {
+    background-color:
+    #D4D2BE;
+   }
+
+.photo1 {
+    width: 32vw;
+    flex-shrink: 0;
+    border-radius: 38px;
+    margin-left:70px ;
+}
+
+.first-page{
+    display: flex;
+    height: 100vh;
+    margin-bottom:50px;
+}
+
+
+.first-page-left{
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-page-right {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.first-header {
+    width: 582.68px;
+    height: 224.336px;
+    transform: rotate(-0.472deg);
+    flex-shrink: 0;
+    color: rgba(49, 76, 84, 0.92);
+    font-family: Vollkorn SC;
+    font-size: clamp(70px, 7.8vw, 125px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94%; /* 117.5px */
+    text-align: center;
+}
+
+.niv {
+
+    width: 254px;
+    color: #263337;
+    font-family: B612 Mono;
+    font-size: clamp(22.4px, 2.6vw, 64px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.167%; /* 47.667px */
+}
+
+.knopka {
+    width: 14vw;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border-top: 4px solid rgba(58, 71, 75, 0.37);
+    border-right: 4px solid rgba(58, 71, 75, 0.37);
+    border-bottom: 4px solid rgba(58, 71, 75, 0.37);
+    border-left: 4px solid rgba(58, 71, 75, 0.37);
+    background: rgba(166, 158, 155, 0.27);
+    background-blend-mode: darken;
+
+    width: 20vw;
+    color: #314C54;
+    font-family: B612 Mono;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.167%; /* 47.667px */
+}
+.txt {
+    text-align: center;
+    text-decoration: none ;
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
+
+
+.second-page {
+    display: flex;
+    flex-direction: column;
+    height: 50;
+    margin-bottom: 50px;
+  
+}
+
+
+
+.second-header{
+        flex: 1;
+        color: #273C43;
+    font-family: B612 Mono;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94%; /* 47px */
+    }
+.text{
+        flex: 1;
+        width: 1500px;
+        color: #273C43;
+    font-family: Didact Gothic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 41.6px */
+    height: 80vh;
+    }
+
+.third-page {
+    display: flex;
+    flex-direction: column;
+     margin-bottom: 50px;
+}
+
+.third-header{
+    color: #273C43;
+    font-family: B612 Mono;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94%; /* 47px */
+}
+
+.trird-photos{
+    display: flex;
+    flex-direction: row;
+}
+.works1 {
+    width: 616px;
+    height: 761px;
+    padding-left: 20px;
+    flex-shrink: 0;
+}
+.works2{
+    width: 621px;
+    eight: 761px;
+    padding-left: 60px;
+    flex-shrink: 0;
+}
+
+.photo2 {
+    width: 36vw;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 38px;
+}
+
+.photo3 {
+    width: 36vw;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 38px;
+}
+
+.fourth-page{
+    display: flex;
+
+}
+
+.social-networks {
+    display: flex;
+    color: #273C43;
+    font-family: B612 Mono;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94%; /* 47px */
+}
+
+.fourth-header{
+    display: flex;
+    color: #273C43;
+    font-family: B612 Mono;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94%; /* 47px */
+}
+
+.instagram {
+    width: 7vw;
+    padding-right: 70px;
+    padding-left: 40px;
+}
+.telegram {
+    width: 7vw;
+    padding-right: 70px;
+}
+
+.vk {
+    width: 7vw;
+    padding-right: 70px;
+}
+
+.tiktok {
+    width: 7vw;
+    padding-right: 70px;
+}
